@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{3814a475-b38d-4d39-b985-3dbb9761d605}</ProjectGuid>
-    <RootNamespace>Sever</RootNamespace>
+    <RootNamespace>Server</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -135,7 +135,7 @@
   <ItemGroup>
     <ClCompile Include="ChatServer_TCP.cpp" />
     <ClCompile Include="ServerSession_TCP.cpp" />
-    <ClCompile Include="Sever.cpp" />
+    <ClCompile Include="Server.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ChatServer_TCP.h" />

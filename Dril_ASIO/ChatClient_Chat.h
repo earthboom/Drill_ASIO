@@ -8,7 +8,7 @@
 #include <boost/asio.hpp>
 #include <boost/thread.hpp>
 
-#include "..\Sever\Protocol.h"
+#include "..\Server\Protocol.h"
 
 class ChatClient_Chat
 {
